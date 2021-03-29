@@ -71,6 +71,53 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-proof4-12" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/03/26/proof4-12/" class="article-date">
+  <time class="dt-published" datetime="2021-03-26T14:07:22.000Z" itemprop="datePublished">2021-03-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/03/26/proof4-12/">proof4.12</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p> (a)$素数p的因子为1和p,故$<br>    $$F(p)=\phi(1)+\phi(p)=1+p-1=p$$</p>
+<p>  (b)$p^{2}的因子为1，p，p^2，故$<br> $F(p^2)=\phi(1)+\phi(p)+\phi(p^2)$<br> $=1+p-1+p^2-p$<br> $=p^2$</p>
+<p>  (c)$p^{k}的因子为1，p，p^2，…,p^k故$<br>   $F(p^k)=\phi(1)+\phi(p)+\phi(p^2)+…+\phi(p^k)$<br>  $ =1+(p-1)+(p^2-p)+…+(p^k-p^{k-1})$<br>  $=p^k$</p>
+<p>   (d)$pq的因子为1，p，q，pq,故$<br>   $F(pq)=\phi(1)+\phi(p)+\phi(q)+\phi(pq)$<br>   $=1+(p-1)+(q-1)+(p-1)(q-1)$<br>  $=pq$</p>
+<p>  (e)$假设m的因子为c_0，c_1，…，c_x,$<br>  $n的因子为d_0,d_1,…,d_y,$<br>  $则mn的因子为:$<br>   $c_0d_0,c_0d_1,…c_0d_{y-1},c_0d_y,$<br>   $c_1d_0,c_1d_1,…c_1d_{y-1},c_1d_y$<br>   …<br>    $c_xd_0,c_xd_1,…c_xd_{y-1},c_xd_y$<br>   $由于m的所有因子和n的所有因子都是互素的$<br>   $（因为m，n互素），故任意取a&lt;x,b&lt;y,有：$<br>   $\phi(c_ad_b)=\phi(c_a)\phi(d_b),故有：$</p>
+<p>  $F(mn)=\Sigma_{i=0}^x\Sigma_{j=0}^y\phi(c_id_j)$<br>  $=\Sigma_{i=0}^x\Sigma_{j=0}^y\phi(c_i)\phi(d_j)$<br>  $=\Sigma_{i=0}^x\phi(c_i)\cdot\Sigma_{j=0}^y\phi(d_j)$<br>  $=F(m)F(n)$</p>
+<p>(f)$令n=p_0^{k_0}p_1^{k_1}…p_t^{k_t},$<br>$其中p_0,p_1,…,p_t是互异的素数<br>则：$<br>$由(c),(e)易知：$<br>$F(n)=F(p_0^{k_0})F(p_1^{k_1})…F(p_t^{k_t})$<br>$=p_0^{k_0}p_1^{k_1}…p_t^{k_t}=n$<br>$证毕。$</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/03/26/proof4-12/" data-id="ckmr7gse700007gumfyvg42i5" data-title="proof4.12" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/math/" rel="tag">math</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/03/26/hello-world/" class="article-date">
@@ -132,9 +179,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/math/" rel="tag">math</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/math/" style="font-size: 10px;">math</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -151,6 +212,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2021/03/26/proof4-12/">proof4.12</a>
+          </li>
         
           <li>
             <a href="/2021/03/26/hello-world/">Hello World</a>
